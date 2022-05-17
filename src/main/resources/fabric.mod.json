@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "planar",
+  "version": "${version}",
+
+  "name": "Planar",
+  "description": "A mod about dimensions and traversing the infinite.",
+  "authors": [
+    "BlackSabin"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/planar/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.blacksabin.planar.PlanarInit"
+    ]
+  },
+  "mixins": [
+    "planar.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

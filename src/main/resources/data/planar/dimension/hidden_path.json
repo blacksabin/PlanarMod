@@ -1,0 +1,11 @@
+{
+  "type": "planar:path",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "planar:noise_set_alpha",
+    "biome_source": {
+      "type": "fixed",
+      "biome": "planar:aberrant"
+    }
+  }
+}

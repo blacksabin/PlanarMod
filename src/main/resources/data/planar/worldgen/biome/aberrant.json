@@ -1,0 +1,28 @@
+{
+  "precipitation": "none",
+  "category": "none",
+  "temperature": 0.5,
+  "temperature_modifier": "none",
+  "downfall": 0.9,
+  "creature_spawn_probability": 0,
+  "effects": {
+    "fog_color": 1578275,
+    "foliage_color": 0,
+    "grass_color": 0,
+    "sky_color": 4539467,
+    "water_color": 0,
+    "water_fog_color": 1578275,
+    "grass_color_modifier": "none"
+  },
+  "carvers": {
+    "air": [],
+    "liquid": []
+  },
+  "features": [],
+  "spawners": {
+
+  },
+  "spawn_costs": {
+
+  }
+}
